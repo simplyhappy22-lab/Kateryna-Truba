@@ -1,3 +1,5 @@
 # Kateryna-Truba
 
-Робочі інструкції для команди в Grok Bot: папка [`grokbot/`](grokbot/README.md).
+Особистий блог (мислення / поведінка) + команда в Grok Bot.
+
+Починати з [`grokbot/README.md`](grokbot/README.md). Біблія проєкту: [`grokbot/00-kontekst.md`](grokbot/00-kontekst.md).
