@@ -18,4 +18,6 @@
 
 Якщо бот не вміє створити базу — імпортуй CSV [bank-tem.csv](bank-tem.csv) у Notion: New page → Import → CSV.
 
+Короткий набір для копіювання: [док у Drive](https://docs.google.com/document/d/1kd8pSF9sizA5QEGSTCynhBJrZTCy5fzBuhBde-4qbrk/edit).
+
 Структура колонок: [00-notion-prostir.md](00-notion-prostir.md).
