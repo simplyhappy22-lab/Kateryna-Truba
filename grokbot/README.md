@@ -9,7 +9,7 @@ Grok Bot **не пише інструкції сам**. Він дає агент
 3. Першим повідомленням — стартовий текст
 4. Коли процес відпрацює — «збережи як skill»
 
-Читай спочатку [00-kontekst.md](00-kontekst.md). Це біблія проєкту.
+Читай спочатку [00-kontekst.md](00-kontekst.md). Це біблія проєкту. Голос бренду: [about-me.md](about-me.md).
 
 Той самий короткий набір карток: [док у Drive / Grok](https://docs.google.com/document/d/17qLLS2OV5d-U55kev1T4Np-ecEKwN3y2FMqvJBBgrhQ/edit).
 
