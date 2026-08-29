@@ -13,6 +13,8 @@ Grok Bot **не пише інструкції сам**. Він дає агент
 
 Той самий короткий набір карток: [док у Drive / Grok](https://docs.google.com/document/d/17qLLS2OV5d-U55kev1T4Np-ecEKwN3y2FMqvJBBgrhQ/edit).
 
+Перепис групи «Контент-відділ» під Threads-воронку: [док](https://docs.google.com/document/d/1M4JnXWJIT4oQLp6gK8Orr77b8JmG_rqkvFXAmfgQlAI/edit).
+
 Сирий контекст, який Катя дала (голос, бриф, воронка, план, мова аудиторії): [папка «Контекст Каті»](https://drive.google.com/drive/folders/18Zs8X-xBAguc2bySGm3mAdVvXfTcKxQC). Локальні копії — у [dzherela/](dzherela/).
 
 ## Кого створювати зараз (п’ять ботів)
@@ -27,12 +29,17 @@ Grok Bot **не пише інструкції сам**. Він дає агент
 | 4 | UGC-команда | [05-ugc-komanda.md](05-ugc-komanda.md) | Як працює UGC, пошук оферів, контент під бренд |
 | 5 | Тренер Bret | [07-trener.md](07-trener.md) | Тренування за Contreras, енергія |
 
+## Група «Контент-відділ» (вже зібрана, 6/6)
+
+Не додавай людей. Перепиши ролі: [kontent-viddil/README.md](kontent-viddil/README.md).
+
+Threads тут — воронка (розвідка → адаптація → BOFU), не окремий блог. Instagram Сакури — посадка з треда.
+
 ## Далі, коли перші п’ять живуть
 
 | Бот | Файл |
 |---|---|
 | YouTube-сценарист | [03-youtube.md](03-youtube.md) |
-| Threads | [04-threads.md](04-threads.md) |
 | Інбокс / Skool | [08-inbox.md](08-inbox.md) |
 | 12 тижнів + побут | [09-zhyttia-12tyzhniv.md](09-zhyttia-12tyzhniv.md) |
 
@@ -50,7 +57,7 @@ Telegram окремо: [10-telegram.md](10-telegram.md). Звідси **не п�
 
 **Пошта Skool.** Окремий бот «Інбокс». У тебе вже купа дайджестів: OutBloom, Claude for Content Automation, Rewired & Regulated, Good Girl Gone Bold. Бот має приносити 5 рядків «варто / не варто», не пересилати все.
 
-**Головне vs підписники.** Підписники — паливо. Гроші — фініш. Координаторка ріже задачі, які не ведуть до $2000 або пілоту каналу.
+**Threads.** Не другий блог і не один бот «пиши пости». У групі Контент-відділ: Джирая шукає охоплення тижня, Іно адаптує, Наруто ставить 1–2 BOFU, Сакура тримає Instagram як посадку. Деталі: [kontent-viddil/README.md](kontent-viddil/README.md).
 
 ## Routines, екран агента, група
 
@@ -58,4 +65,4 @@ Telegram окремо: [10-telegram.md](10-telegram.md). Звідси **не п�
 
 Покроково + готові фрази: [11-funktsii-i-rytmy.md](11-funktsii-i-rytmy.md).
 
-Спочатку дві routines: ранковий бриф у Координаторки (будні 7:00 Київ) і пакет Reels у Контенту (неділя 18:00). Timezone у Settings постав **Europe/Kyiv**.
+Спочатку дві routines: ранковий бриф у Координаторки (будні 7:00 Київ) і пакет Reels у Контенту (неділя 18:00). Коли контент-відділ уже йде конвеєром — додай розвідку Threads (понеділок 10:00) і пакет Threads (вівторок 11:00). Timezone у Settings постав **Europe/Kyiv**.
