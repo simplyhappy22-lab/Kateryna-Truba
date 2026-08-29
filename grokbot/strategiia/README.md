@@ -20,6 +20,7 @@
 
 Короткий набір для копіювання: [док у Drive](https://docs.google.com/document/d/1kd8pSF9sizA5QEGSTCynhBJrZTCy5fzBuhBde-4qbrk/edit).
 
-Структура колонок: [00-notion-prostir.md](00-notion-prostir.md).
+Структура колонок банку: [00-notion-prostir.md](00-notion-prostir.md).  
+Крок 3 (хуки / карусель / підпис) — окрема таблиця: [../kontent-plan/README.md](../kontent-plan/README.md).
 
-Голос (не чорний список слів): [../00-bez-ai-kliche.md](../00-bez-ai-kliche.md). Кинути боту зразки з початку файлу.
+Голос бренду: [../about-me.md](../about-me.md). Тон на камері: [../dzherela/02-ton-of-voice.md](../dzherela/02-ton-of-voice.md).
