@@ -3,7 +3,8 @@
 Голос бренду Катерини Труби. Для ботів і людей. Не вигадувати іншу Катю.
 
 Повний тон на камеру: [документ](https://docs.google.com/document/d/1U_umRvyIkbYBbYJoXyhm0hpcatdVG89sabzBTXZRC_8/edit) і [dzherela/02-ton-of-voice.md](dzherela/02-ton-of-voice.md).  
-Короткі теми в таблиці: як у Notion «Банк тем — живі», не як в архіві.
+Короткі теми в таблиці: як у Notion «Банк тем — живі», не як в архіві.  
+Для кого: [audience.md](audience.md).
 
 ---
 
