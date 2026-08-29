@@ -15,6 +15,8 @@ Grok Bot **не пише інструкції сам**. Він дає агент
 
 Перепис групи «Контент-відділ» під Threads-воронку: [док](https://docs.google.com/document/d/1M4JnXWJIT4oQLp6gK8Orr77b8JmG_rqkvFXAmfgQlAI/edit).
 
+**Стратегія — окремо**, не в групі. Правда в Notion: [strategiia/README.md](strategiia/README.md).
+
 Сирий контекст, який Катя дала (голос, бриф, воронка, план, мова аудиторії): [папка «Контекст Каті»](https://drive.google.com/drive/folders/18Zs8X-xBAguc2bySGm3mAdVvXfTcKxQC). Локальні копії — у [dzherela/](dzherela/).
 
 ## Кого створювати зараз (п’ять ботів)
