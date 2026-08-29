@@ -21,3 +21,5 @@
 Короткий набір для копіювання: [док у Drive](https://docs.google.com/document/d/1kd8pSF9sizA5QEGSTCynhBJrZTCy5fzBuhBde-4qbrk/edit).
 
 Структура колонок: [00-notion-prostir.md](00-notion-prostir.md).
+
+Тексти без ШІ-кліше: [../00-bez-ai-kliche.md](../00-bez-ai-kliche.md). Один абзац у чат боту — там на початку файлу.
