@@ -58,5 +58,5 @@ Threads-актори частіше падають (Meta). Якщо прогін
 | [01-instagram.md](01-instagram.md) | Задача Instagram |
 | [02-threads.md](02-threads.md) | Задача Threads |
 | [03-youtube.md](03-youtube.md) | Задача YouTube |
-| [akaunty.csv](akaunty.csv) | Насіння: кого дивитись. Порожнє, поки Катя не впише |
+| [akaunty.csv](akaunty.csv) | Насіння: кого дивитись. Instagram — 11 акаунтів від Каті. Threads і YouTube ще порожні |
 | [04-apify-mcp.md](04-apify-mcp.md) | Підключити Apify в Grok Bot + щотижнева routine |
