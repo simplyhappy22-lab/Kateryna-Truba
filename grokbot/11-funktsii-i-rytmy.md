@@ -33,7 +33,7 @@
 
 1. **Timezone = Europe/Kyiv**
 2. **Notifications** увімкни в Координаторки й Контенту (View conversation details → Agent settings).
-3. **Plugins:** Google Calendar, Gmail, Google Drive. Якщо є — Sheets.
+3. **Plugins:** Google Calendar, Gmail, Google Drive. Якщо є — Sheets. Для розвідки — кастомний MCP **Apify**: [rozvidka/04-apify-mcp.md](rozvidka/04-apify-mcp.md). Це не пункт Claude «Customize → Connectors».
 4. У чаті пиши `@` щоб прикріпити конектор, `/` щоб викликати skill.
 
 Логін у браузері бота робиться **один раз**. Сесія спільна для всіх твоїх ботів. Паролі в чат не кидай: якщо просить увійти — відкрий його екран і зайди сама.
@@ -183,8 +183,8 @@ BOFU не пиши (це Наруто). Не публікуй.
 Не в групі. Картка: [rozvidka/00-bot.md](rozvidka/00-bot.md).  
 Готові тексти задач: [rozvidka/01-instagram.md](rozvidka/01-instagram.md), [rozvidka/02-threads.md](rozvidka/02-threads.md), [rozvidka/03-youtube.md](rozvidka/03-youtube.md).
 
-Спочатку заповни [rozvidka/akaunty.csv](rozvidka/akaunty.csv) або скинь 8–12 лінків у чат. Без насіння Apify не знає «твою нішу».
-Один test run на платформу. Routine — лише коли каркаси вже вийшли нормально.
+Спочатку: конектор Apify ([rozvidka/04-apify-mcp.md](rozvidka/04-apify-mcp.md)) + [rozvidka/akaunty.csv](rozvidka/akaunty.csv) або 8–12 лінків у чат.
+Один test run на платформу через `@Apify`. Routine «Свіжі каркаси тижня» — лише коли каркаси вже вийшли нормально. Не Cowork.
 
 ### 3. Контент — пакет на тиждень (після того як 1 тиждень уже вийшов вручну)
 

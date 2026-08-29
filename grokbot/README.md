@@ -17,7 +17,7 @@ Grok Bot **не пише інструкції сам**. Він дає агент
 
 **Стратегія — окремо**, не в групі. Правда в Notion: [strategiia/README.md](strategiia/README.md).
 
-**Розвідка — окремо.** Один бот, три задачі (Instagram / Threads / YouTube), Apify + фільтр через about-me і audience: [rozvidka/README.md](rozvidka/README.md). Не додавай його в групу «Контент-відділ», поки не скажеш.
+**Розвідка — окремо.** Один бот, три задачі. Apify в Grok Bot — через MCP у Plugins, розклад — Routine, не Cowork: [rozvidka/04-apify-mcp.md](rozvidka/04-apify-mcp.md). Не додавай бота в групу «Контент-відділ», поки не скажеш.
 
 Сирий контекст, який Катя дала (голос, бриф, воронка, план, мова аудиторії): [папка «Контекст Каті»](https://drive.google.com/drive/folders/18Zs8X-xBAguc2bySGm3mAdVvXfTcKxQC). Локальні копії — у [dzherela/](dzherela/).
 
