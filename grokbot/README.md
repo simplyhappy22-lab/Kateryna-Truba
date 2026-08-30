@@ -21,7 +21,7 @@ Grok Bot **не пише інструкції сам**. Він дає агент
 
 **14 принципів** — як збирати хуки, не нова команда: [skill-perekonannia.md](skill-perekonannia.md), хто що робить — [kontent-viddil/07-perekonannia.md](kontent-viddil/07-perekonannia.md). Кинути з телефону: [док](https://docs.google.com/document/d/1CgHoHJEHWTw1Vd75bviG9Cj3TL0gwORDaNFGCvELI-g/edit).
 
-**Як пишеться сценарій** — 4 кроки, перше слово завжди Каті: [protsess-stsenariiv.md](protsess-stsenariiv.md). Нотатки про голос після кожного фіналу — [holos-zhurnal.md](holos-zhurnal.md).
+**Як пишеться сценарій** — 4 кроки, перше слово завжди Каті: [protsess-stsenariiv.md](protsess-stsenariiv.md). Якщо в брейндампі є історія — перед сценарієм Сакура допомагає з картою, а не дописує за Катю: [skill-storiteling.md](skill-storiteling.md). Нотатки про голос після кожного фіналу — [holos-zhurnal.md](holos-zhurnal.md).
 
 **Розвідка — окремо.** Один бот, три задачі. Apify в Grok Bot — через MCP у Plugins, розклад — Routine, не Cowork: [rozvidka/04-apify-mcp.md](rozvidka/04-apify-mcp.md). Не додавай бота в групу «Контент-відділ», поки не скажеш.
 
