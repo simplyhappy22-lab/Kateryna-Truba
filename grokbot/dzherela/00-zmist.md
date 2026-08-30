@@ -18,7 +18,7 @@
 | 7 | [Jessi Jean Yap-Video Phenomenon](https://drive.google.com/file/d/1o-_gAV70cFUUaesxe2xwx6M0r-_NosRv/view) | Базовий формат зйомки Каті: talking head як контрольована спонтанність; телефон + природне світло + міні-мікрофон; хук 0–3 с → одна теза → 1–2 приклади → закриття без переказу |
 | 8 | [Jun Yuh — 3P Storytelling](https://drive.google.com/file/d/1tz2kM5VMTlCR9WDKhF6y__8G-8BX6vH_/view) | Каркас однієї історії: Problem → Pursuit → Payoff; Journey POV замість пози гуру |
 | 9 | [Alex Petrakieva — Serial Storytelling](https://drive.google.com/file/d/1CZHiDlD2O9mMBfbMTS85RSUUh8URvd7a/view) | Коли історія має стати серією: реальна подорож, скінченна арка, конкретика, чесна відкрита петля |
-| 10 | Маріна Баришполець — джерело очікується | Катя назвала четвертим джерелом для сторітелінгу. Окремого файла в доступному Drive 30.08.2026 не знайдено; не вигадувати й не приписувати їй правила без матеріалу |
+| 10 | [Maryna Baryshpolets — Storytelling and VBM Funnel Strategy](https://drive.google.com/file/d/1dVAp4LqJp4KJlv7WhfPjmeDTZNPkUOCE/view) | Історія як інструмент воронки: одна функція на матеріал — охоплення, довіра або дія; адаптована формула `жива сцена → інсайт → одна наступна дія`. Самозаявлені цифри з дослідження не використовувати як перевірені факти |
 
 Поруч у папці Grok, але не в цій підпапці:
 - Дослідження акаунтів Ролей

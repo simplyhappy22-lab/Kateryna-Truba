@@ -108,7 +108,7 @@ BOFU = waitlist / ТЕСТ. Не «купи», поки немає пілоту.
 | Картка шефа | [kontent-viddil/01-chief.md](kontent-viddil/01-chief.md) |
 | Голос / ЦА | [about-me.md](about-me.md), [audience.md](audience.md) |
 | Як пишеться сценарій, 4 кроки | [protsess-stsenariiv.md](protsess-stsenariiv.md), [holos-zhurnal.md](holos-zhurnal.md), [strategiia/00-notion-prostir.md](strategiia/00-notion-prostir.md) |
-| Карта історії до сценарію | [skill-storiteling.md](skill-storiteling.md): Jessi Jean + Jun Yuh + Alex Petrakieva; Маріна Баришполець — очікується файл |
+| Карта історії до сценарію | [skill-storiteling.md](skill-storiteling.md): Jessi Jean + Jun Yuh + Alex Petrakieva + Maryna Baryshpolets; додано функцію історії у воронці — охоплення / довіра / дія |
 
 ## Як говорити з Cursor наступного разу
 
