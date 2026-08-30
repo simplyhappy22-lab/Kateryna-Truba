@@ -15,6 +15,7 @@
 | 5а | Мова аудиторії, частина 1 | Висловлювання, карта болю, пошукова мова |
 | 5б | Мова аудиторії, частина 2 | Суміжні болі, 15 формулювань, продукт, джерела |
 | 6 | The Persuasion Playbook: 14 Psychology Principles | Джерело для [skill-perekonannia.md](../skill-perekonannia.md) і разового промпту в [protsess-stsenariiv.md](../protsess-stsenariiv.md) (Крок 0). Лінк на Drive додати, коли Катя завантажить |
+| 7 | [Jessi Jean Yap-Video Phenomenon](https://drive.google.com/file/d/1o-_gAV70cFUUaesxe2xwx6M0r-_NosRv/view) | Базовий формат зйомки Каті: talking head як контрольована спонтанність; телефон + природне світло + міні-мікрофон; хук 0–3 с → одна теза → 1–2 приклади → закриття без переказу |
 
 Поруч у папці Grok, але не в цій підпапці:
 - Дослідження акаунтів Ролей
