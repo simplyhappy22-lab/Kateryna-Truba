@@ -21,6 +21,7 @@
 Короткий набір для копіювання: [док у Drive](https://docs.google.com/document/d/1kd8pSF9sizA5QEGSTCynhBJrZTCy5fzBuhBde-4qbrk/edit).
 
 Структура колонок банку: [00-notion-prostir.md](00-notion-prostir.md).  
+Задача шефу, куди класти розвідку: [03-zavdannia-shefu.md](03-zavdannia-shefu.md).  
 Крок 3 (хуки / карусель / підпис) — окрема таблиця: [../kontent-plan/README.md](../kontent-plan/README.md).
 
 Голос бренду: [../about-me.md](../about-me.md). Тон на камері: [../dzherela/02-ton-of-voice.md](../dzherela/02-ton-of-voice.md).

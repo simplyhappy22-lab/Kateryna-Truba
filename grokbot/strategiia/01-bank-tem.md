@@ -1,6 +1,9 @@
-# Перший банк тем (якщо бот не заповнить Notion)
+# Банк тем
 
-Імпорт: Notion → Import → CSV → [bank-tem.csv](bank-tem.csv).
+Жива база: [Банк тем у Notion](https://app.notion.com/p/619f329526ca44d5a000a6690a5366a7).  
+Як боти заповнюють: [Як заповнювати банк тем](https://app.notion.com/p/3cc4e56ef356819db10ac35c592c6662). Схема: [00-notion-prostir.md](00-notion-prostir.md).
+
+Запасний імпорт, якщо треба з нуля: Notion → Import → CSV → [bank-tem.csv](bank-tem.csv).
 
 Логіка:
 
