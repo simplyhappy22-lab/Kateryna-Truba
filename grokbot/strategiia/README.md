@@ -20,8 +20,8 @@
 
 Короткий набір для копіювання: [док у Drive](https://docs.google.com/document/d/1kd8pSF9sizA5QEGSTCynhBJrZTCy5fzBuhBde-4qbrk/edit).
 
-Структура колонок банку: [00-notion-prostir.md](00-notion-prostir.md).  
+Структура колонок банку, разом із колонками для власного сценарію: [00-notion-prostir.md](00-notion-prostir.md).  
 Задача шефу, куди класти розвідку: [03-zavdannia-shefu.md](03-zavdannia-shefu.md).  
-Крок 3 (хуки / карусель / підпис) — окрема таблиця: [../kontent-plan/README.md](../kontent-plan/README.md).
+Хуки й повний сценарій — той самий рядок Банку, позначений «Готую цей тиждень», через 4 кроки: [../protsess-stsenariiv.md](../protsess-stsenariiv.md).
 
 Голос бренду: [../about-me.md](../about-me.md). Тон на камері: [../dzherela/02-ton-of-voice.md](../dzherela/02-ton-of-voice.md).
