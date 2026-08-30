@@ -27,6 +27,7 @@
 | [`.cursor/rules/skills-routing.mdc`](.cursor/rules/skills-routing.mdc) | Правило маршрутизації, завжди в контексті агента |
 | [`.cursor/rules/skills-catalog.mdc`](.cursor/rules/skills-catalog.mdc) | Підтягує `SKILLS.md`, коли розмова про скіли |
 | [`.cursor/skills/ATTRIBUTION.md`](.cursor/skills/ATTRIBUTION.md) | Автори, ліцензії, комміти-джерела, перелік правок |
+| [`storitelinh/`](storitelinh/README.md) | Інструкції для бота, який з ідеї робить сценарій під охоплення й підписки |
 
 Щоб послатися на довідник у чаті — набери `@SKILLS.md`.
 
