@@ -31,7 +31,7 @@
 | 2 | Промпт сценарій + позначені механізми | щоразу | нижче, «Крок 2» |
 | 3 | Промпт аналізу голосу (фідбек-луп) | щоразу, після фіналізації | нижче, «Крок 4» |
 | 4 | Місце накопичення нотаток про голос | живе постійно | [holos-zhurnal.md](holos-zhurnal.md) |
-| 5 | Таблиця з темами, хуками і сценаріями | живе постійно | той самий **Банк тем** у Notion, позначені рядки — [strategiia/00-notion-prostir.md](strategiia/00-notion-prostir.md) |
+| 5 | Таблиця з темами, хуками і сценаріями | **вже додано в живий Банк тем** (30.08.2026) | той самий **Банк тем** у Notion, позначені рядки — [strategiia/00-notion-prostir.md](strategiia/00-notion-prostir.md) |
 
 Джерело для пункту 1 — файл **The Persuasion Playbook: 14 Psychology Principles**, який лягає в [dzherela/](dzherela/) (запис у [00-zmist.md](dzherela/00-zmist.md) вже додано, лінк на Drive — коли завантажиш). Це те саме джерело, що вже вказане в [skill-perekonannia.md](skill-perekonannia.md).
 
