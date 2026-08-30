@@ -49,6 +49,7 @@
 | Банк тем | https://app.notion.com/p/619f329526ca44d5a000a6690a5366a7 |
 | Як боти заповнюють банк | https://app.notion.com/p/3cc4e56ef356819db10ac35c592c6662 |
 | «Банк тем — живі» | стара копія, боти сюди не пишуть |
+| Контент-план | ще не жива, дизайн готовий — [kontent-plan/00-notion.md](kontent-plan/00-notion.md). Друга база на тій самій сторінці, туди Сакура кладе теми/хуки/сценарії з 4 кроків |
 
 Хуки й сценарії в Банк не писати. Таблицю Рілси видалено.
 
@@ -105,7 +106,7 @@ BOFU = waitlist / ТЕСТ. Не «купи», поки немає пілоту.
 | Картка Сакури | [kontent-viddil/06-sakura-instagram.md](kontent-viddil/06-sakura-instagram.md) |
 | Картка шефа | [kontent-viddil/01-chief.md](kontent-viddil/01-chief.md) |
 | Голос / ЦА | [about-me.md](about-me.md), [audience.md](audience.md) |
-| Як пишеться сценарій, 4 кроки | [protsess-stsenariiv.md](protsess-stsenariiv.md), [holos-zhurnal.md](holos-zhurnal.md) |
+| Як пишеться сценарій, 4 кроки | [protsess-stsenariiv.md](protsess-stsenariiv.md), [holos-zhurnal.md](holos-zhurnal.md), [kontent-plan/00-notion.md](kontent-plan/00-notion.md) |
 
 ## Як говорити з Cursor наступного разу
 
