@@ -17,7 +17,7 @@ Grok Bot **не пише інструкції сам**. Він дає агент
 
 **Стратегія — окремо**, не в групі. Правда в Notion: [strategiia/README.md](strategiia/README.md). Ідея в банку ≠ одиниця зйомки. Хуки й каруселі — [kontent-plan/README.md](kontent-plan/README.md).
 
-**14 принципів** — лінза на вже існуючі тексти, не нова команда: [skill-perekonannia.md](skill-perekonannia.md), хто що робить — [kontent-viddil/07-perekonannia.md](kontent-viddil/07-perekonannia.md). Кинути з телефону: [док](https://docs.google.com/document/d/1FVSfA-mRCDs0ef4jbZysmJDF7CzurIGmYr_0kT05IjM/edit).
+**14 принципів** — як збирати хуки, не нова команда: [skill-perekonannia.md](skill-perekonannia.md), хто що робить — [kontent-viddil/07-perekonannia.md](kontent-viddil/07-perekonannia.md). Кинути з телефону: [док](https://docs.google.com/document/d/1CgHoHJEHWTw1Vd75bviG9Cj3TL0gwORDaNFGCvELI-g/edit).
 
 **Розвідка — окремо.** Один бот, три задачі. Apify в Grok Bot — через MCP у Plugins, розклад — Routine, не Cowork: [rozvidka/04-apify-mcp.md](rozvidka/04-apify-mcp.md). Не додавай бота в групу «Контент-відділ», поки не скажеш.
 

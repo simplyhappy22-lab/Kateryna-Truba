@@ -95,7 +95,7 @@
 
 - `Ранковий бриф`
 - `Пакет Reels на тиждень`
-- `14 принципів` — хуки й діагноз чернетки; кинути з [skill-perekonannia.md](skill-perekonannia.md)
+- `14 принципів` — хуки й перевірка чернетки; кинути з [skill-perekonannia.md](skill-perekonannia.md)
 - `без слизу` — після принципів; [skill-tekst.md](skill-tekst.md)
 - `5 UGC-оферів`
 - `Розбір пошти Skool`

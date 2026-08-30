@@ -26,7 +26,7 @@ Threads має бути не «ще один блог», а **органічни
 | Наруто | Офер / BOFU | 1–2 продаючі/CTA пости на тиждень + куди ведемо людину | [05-naruto-ofer.md](05-naruto-ofer.md) |
 | Сакура | Instagram-посадка | Reels з **тих самих** тем тижня. Сюди має падати трафік з Threads | [06-sakura-instagram.md](06-sakura-instagram.md) |
 
-Лінза на тексти (не сьомий бот): [07-perekonannia.md](07-perekonannia.md). Скіл у чат: [../skill-perekonannia.md](../skill-perekonannia.md).
+Як збирати хуки (не сьомий бот): [07-perekonannia.md](07-perekonannia.md). Скіл у чат: [../skill-perekonannia.md](../skill-perekonannia.md).
 
 Джираю **не видаляй**. Зміни Title на «Розвідка Threads» і встав новий опис. Інакше знову буде діра в 6/6.
 
@@ -93,4 +93,4 @@ Grok часто не відкриває чужі пости в Threads. Тоді
 Запам’ятайте. Сьогодні стартуємо з розвідки. @Джирая — перший.
 ```
 
-Лінза «14 принципів» — окремим повідомленням, коли конвеєр уже вставлений: блок у [07-perekonannia.md](07-perekonannia.md).
+Повідомлення про хуки — окремо, коли конвеєр уже вставлений: блок у [07-perekonannia.md](07-perekonannia.md).
