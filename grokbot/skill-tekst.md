@@ -1,7 +1,13 @@
-# Скіл для текстів (не kill-ai-slop)
+# Скіл для текстів — гібрид, не джерело правди
 
-Джерело структури: [petergyang/no-ai-slop](https://github.com/petergyang/no-ai-slop).  
-Голос лишається твій: [about-me.md](about-me.md) + [00-bez-ai-kliche.md](00-bez-ai-kliche.md).
+Катя цей ремікс відхилила (назва «без слизу», мішанина з YouTube-тоном).  
+Оригінал, як вона скинула: [no-ai-slop на Диску](https://docs.google.com/document/d/1EASuUT8PlBdrtVf2Ec-2z7ayZ2z2Y0L11Vfgg0NjlLM/edit). Invoke: `/no-ai-slop`.
+
+Нижче лишається старий чернетковий гібрид, щоб не загубити історію. **У бота не вставляти**, поки Катя не скаже інакше.
+
+---
+
+Джерело структури: [petergyang/no-ai-slop](https://github.com/petergyang/no-ai-slop).
 
 `kill-ai-slop` — для сайту. Це — для хуків, підписів, слайдів, тредів, сценаріїв.
 
