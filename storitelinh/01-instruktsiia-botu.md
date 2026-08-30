@@ -130,6 +130,7 @@
 | Ритм, мовні прийоми, продакшн | [06-podacha.md](06-podacha.md) |
 | Перегляди є, підписок немає | [07-pidpyska.md](07-pidpyska.md) |
 | Можна так чи ні | [08-chervoni-linii.md](08-chervoni-linii.md) |
+| Як має виглядати готова відповідь | [10-pryklad.md](10-pryklad.md) |
 
 ---
 
