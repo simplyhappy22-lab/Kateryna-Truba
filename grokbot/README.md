@@ -13,7 +13,7 @@ Grok Bot **не пише інструкції сам**. Він дає агент
 
 Той самий короткий набір карток: [док у Drive / Grok](https://docs.google.com/document/d/17qLLS2OV5d-U55kev1T4Np-ecEKwN3y2FMqvJBBgrhQ/edit).
 
-Сирий контекст, який Катя дала (голос, бриф, воронка, план, мова аудиторії): [папка «Контекст Каті»](https://drive.google.com/drive/folders/18Zs8X-xBAguc2bySGm3mAdVvXfTcKxQC). Локальні копії — у [dzherela/](dzherela/).
+Сирий контекст, який Катя дала (голос, бриф, воронка, план, мова аудиторії): [папка «Контекст Каті»](https://drive.google.com/drive/folders/18Zs8X-xBAguc2bySGm3mAdVvXfTcKxQC). Локальні копії — у [dzherela/](dzherela/). Домовленості з чату, яких немає в брифі: [06 — Рішення з переписки](https://docs.google.com/document/d/1DQvDl2osm9I8pFAhPzrXXpaV-th0eykOiElhiGM4ESM/edit).
 
 ## Кого створювати зараз (п’ять ботів)
 
