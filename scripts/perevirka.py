@@ -299,11 +299,21 @@ def perevirty(shlyah, slovnyky, holos_pravyla=None):
     for slovo in homohlify(text):
         problemy.append(("ERROR", "гомогліф", slovo, "латинська літера всередині кириличного слова"))
 
+    parazytiv = 0
     for grupa, terminy in slovnyky.items():
         for t in terminy:
             n = len(re.findall(rf"(?<![а-яіїєґ]){re.escape(t)}(?![а-яіїєґ])", nyzhnia))
             if n:
                 problemy.append(("WARN", grupa, f"{t} × {n}", ""))
+                if grupa == "паразит":
+                    parazytiv += n
+
+    # Пороги з parazyty.md: до 0,5% чисто, 0,5–1,5% норма, понад 1,5% чистити.
+    slova_prozy = len(re.findall(r"[а-яіїєґ']+", nyzhnia))
+    shchilnist = parazytiv / slova_prozy * 100 if slova_prozy else 0
+    if shchilnist > 1.5:
+        problemy.append(("WARN", "щільність паразитів", f"{shchilnist:.2f}%",
+                         "понад 1,5% — за порогом із parazyty.md текст треба чистити"))
 
     for slovo in NE_VSTAVNI:
         n = len(re.findall(rf",\s*{re.escape(slovo)}\s*,", nyzhnia))
