@@ -23,6 +23,9 @@ from pathlib import Path
 KOREN = Path(__file__).resolve().parent.parent
 SLOVNYKY = KOREN / ".cursor/skills/ukrainianizer/references"
 
+# Апостроф — частина слова, а не межа. Без нього «являється» ловиться в «зʼявляється».
+BUKVA = "а-яіїєґ'\u2019\u02bc\u0060\u00b4"
+
 
 # ── Витягання прози ─────────────────────────────────────────────────────────
 #
@@ -302,7 +305,7 @@ def perevirty(shlyah, slovnyky, holos_pravyla=None):
     parazytiv = 0
     for grupa, terminy in slovnyky.items():
         for t in terminy:
-            n = len(re.findall(rf"(?<![а-яіїєґ]){re.escape(t)}(?![а-яіїєґ])", nyzhnia))
+            n = len(re.findall(rf"(?<![{BUKVA}]){re.escape(t)}(?![{BUKVA}])", nyzhnia))
             if n:
                 problemy.append(("WARN", grupa, f"{t} × {n}", ""))
                 if grupa == "паразит":
@@ -323,7 +326,7 @@ def perevirty(shlyah, slovnyky, holos_pravyla=None):
 
     if holos_pravyla:
         for t in holos_pravyla["заборонені"]:
-            n = len(re.findall(rf"(?<![а-яіїєґ]){re.escape(t)}(?![а-яіїєґ])", nyzhnia))
+            n = len(re.findall(rf"(?<![{BUKVA}]){re.escape(t)}(?![{BUKVA}])", nyzhnia))
             if n:
                 problemy.append(("WARN", "проти голосу", f"{t} × {n}", ""))
 
