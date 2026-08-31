@@ -30,6 +30,7 @@ description: |
 - **Англіцизми:** [references/anglicyzmy.md](references/anglicyzmy.md) — кальки з англійської
 - **Канцеляризми:** [references/kancelyaryzmy.md](references/kancelyaryzmy.md) — номіналізації
 - **Плеоназми:** [references/pleonazmy.md](references/pleonazmy.md) — зайві слова
+- **Слова-паразити:** [references/parazyty.md](references/parazyty.md) — порожні слова, підсилювачі, хеджування
 - **AI-патерни:** [references/ai-patterns.md](references/ai-patterns.md) — AI-лексика, промоційна мова, артефакти
 - **Фразеологізми:** [references/frazeologizmy.md](references/frazeologizmy.md) — для додавання живості
 
@@ -101,6 +102,7 @@ def clean_watermarks(text):
 1. Find & Replace русизми → див. [references/rusyzmy.md](references/rusyzmy.md)
 2. Прибрати канцеляризми → див. [references/kancelyaryzmy.md](references/kancelyaryzmy.md)
 3. Видалити AI-лексику → див. [references/ai-patterns.md](references/ai-patterns.md)
+4. Викинути слова-паразити → див. [references/parazyty.md](references/parazyty.md)
 
 ### Крок 2: Структурна гуманізація (10 хв)
 1. **Burstiness:** Розбити найдовше речення, додати коротке
@@ -108,7 +110,7 @@ def clean_watermarks(text):
 3. **Transitions:** Замінити формальні переходи
 
 ### Крок 3: Додати душу (10 хв)
-1. **Частки:** Додати ж, бо, от хоча б 2-3 рази
+1. **Частки:** Додати ж, бо, от хоча б 2-3 рази — тільки там, де частка тримає наголос. Різницю між часткою й паразитом див. [references/parazyty.md](references/parazyty.md)
 2. **Emotional tone:** Додати емоційні слова
 3. **Конкретика:** Замінити абстракції на цифри/імена
 4. **Фразеологізми:** Додати 1-2 → див. [references/frazeologizmy.md](references/frazeologizmy.md)
@@ -139,6 +141,7 @@ def clean_watermarks(text):
 - [ ] Прибрано русизми?
 - [ ] Прибрано канцеляризми?
 - [ ] Прибрано AI-лексику?
+- [ ] Щільність паразитів під 1,5%?
 
 ---
 
