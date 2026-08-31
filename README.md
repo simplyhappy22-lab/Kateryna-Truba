@@ -27,6 +27,7 @@
 | [`.cursor/rules/skills-routing.mdc`](.cursor/rules/skills-routing.mdc) | Правило маршрутизації, завжди в контексті агента |
 | [`.cursor/rules/skills-catalog.mdc`](.cursor/rules/skills-catalog.mdc) | Підтягує `SKILLS.md`, коли розмова про скіли |
 | [`.cursor/skills/ATTRIBUTION.md`](.cursor/skills/ATTRIBUTION.md) | Автори, ліцензії, комміти-джерела, перелік правок |
+| [`scripts/perevirka.py`](scripts/perevirka.py) | Механічна перевірка тексту за словниками. Висить на `pre-commit` |
 | [`research/`](research/) | Три дослідження про контент-завод: [моделі під задачі](research/2026-08-31-kontent-zavod-na-shi.md), [скіли з GitHub під станції](research/2026-08-31-skily-pid-stantsii.md), [як перебудувати структуру](research/2026-08-31-struktura-zavodu.md) |
 
 Щоб послатися на довідник у чаті — набери `@SKILLS.md`.

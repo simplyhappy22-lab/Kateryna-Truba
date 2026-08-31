@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+# Перевіряє український текст у файлах, що йдуть у коміт.
+#
+# Увімкнути один раз:
+#     git config core.hooksPath .githooks
+#
+# Обійти в разовому випадку:
+#     git commit --no-verify
+
+set -u
+
+FILES=$(git diff --cached --name-only --diff-filter=ACM | grep '\.md$' || true)
+[ -z "$FILES" ] && exit 0
+
+# shellcheck disable=SC2086
+python3 scripts/perevirka.py $FILES
+KOD=$?
+
+if [ $KOD -ne 0 ]; then
+    echo
+    echo "Коміт зупинено: у тексті є помилки рівня ERROR."
+    echo "Виправ їх або, якщо певна, що це хибне спрацювання: git commit --no-verify"
+fi
+
+exit $KOD
