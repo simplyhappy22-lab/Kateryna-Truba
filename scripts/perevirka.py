@@ -211,6 +211,37 @@ NE_VSTAVNI = [
 ]
 
 
+# Слова, що збігаються за формою з наказовим способом множини, але ним не є.
+NE_NAKAZ = {"навіть"}
+
+ZAJMENNYKY = {
+    "ти": r"\b(ти|тебе|тобі|тобою|твій|твоя|твоє|твої|твого|твоєї|твоєму|твоїх)\b",
+    "ви": r"\b(ви|вас|вам|вами|ваш|ваша|ваше|ваші|вашого|вашої|вашому|ваших)\b",
+}
+
+
+def holos(shlyah):
+    """Читає файл голосу: регістр, межа довжини речення, заборонені слова."""
+    text = shlyah.read_text(encoding="utf-8")
+    rehistr = re.search(r"\*\*Регістр:\*\*\s*(ти|ви)", text)
+    mezha = re.search(r"\*\*Максимум слів у реченні:\*\*\s*(\d+)", text)
+    return {
+        "регістр": rehistr.group(1) if rehistr else None,
+        "межа": int(mezha.group(1)) if mezha else None,
+        "заборонені": terminy_z_tablyc(shlyah),
+    }
+
+
+def zvertannia(proza):
+    """Форми звертання в тексті. Повертає (кількість ти-форм, кількість ви-форм)."""
+    nyzhnia = proza.lower()
+    ty = len(re.findall(ZAJMENNYKY["ти"], nyzhnia))
+    vy = len(re.findall(ZAJMENNYKY["ви"], nyzhnia))
+    nakaz = [m for m in re.findall(r"\b\w{3,}(?:іть|айте|уйте|ийте)\b", nyzhnia)
+             if m not in NE_NAKAZ]
+    return ty, vy + len(nakaz)
+
+
 def ukrainskyj(text):
     """Частка кирилиці серед літер. Англійські скіли перевіряти цим нема сенсу."""
     kyryl = len(re.findall(r"[а-яіїєґА-ЯІЇЄҐ]", text))
@@ -254,7 +285,7 @@ def statystyka(proza):
 
 # ── Перевірка одного файлу ──────────────────────────────────────────────────
 
-def perevirty(shlyah, slovnyky):
+def perevirty(shlyah, slovnyky, holos_pravyla=None):
     text = shlyah.read_text(encoding="utf-8")
     proza, vykynuto, chastka_prozy = vytiahnuty_prozu(text)
     nyzhnia = proza.lower()
@@ -279,6 +310,22 @@ def perevirty(shlyah, slovnyky):
         if n:
             problemy.append(("WARN", "зайві коми", f"«, {slovo},» × {n}",
                              f"«{slovo}» ніколи не буває вставним словом і комами не виділяється"))
+
+    if holos_pravyla:
+        for t in holos_pravyla["заборонені"]:
+            n = len(re.findall(rf"(?<![а-яіїєґ]){re.escape(t)}(?![а-яіїєґ])", nyzhnia))
+            if n:
+                problemy.append(("WARN", "проти голосу", f"{t} × {n}", ""))
+
+        ochikuvanyj = holos_pravyla["регістр"]
+        if ochikuvanyj:
+            ty, vy = zvertannia(proza)
+            chuzhyh = vy if ochikuvanyj == "ти" else ty
+            svoyih = ty if ochikuvanyj == "ти" else vy
+            if chuzhyh and chuzhyh > svoyih:
+                inshyj = "ви" if ochikuvanyj == "ти" else "ти"
+                problemy.append(("WARN", "регістр", f"{inshyj}-форм {chuzhyh}, {ochikuvanyj}-форм {svoyih}",
+                                 f"голос вимагає звертання на «{ochikuvanyj}»"))
 
     for nazva, vzir, poyasnennia in STRUKTURNI:
         znajdeni = re.findall(vzir, proza)
@@ -307,6 +354,7 @@ def main():
     p = argparse.ArgumentParser(description="Перевірка українського тексту")
     p.add_argument("files", nargs="*")
     p.add_argument("--all", action="store_true", help="усі .md, крім словників")
+    p.add_argument("--holos", help="файл голосу з voices/")
     args = p.parse_args()
 
     if args.all:
@@ -319,6 +367,7 @@ def main():
     if not shlyahy:
         p.error("нема що перевіряти")
 
+    holos_pravyla = holos(Path(args.holos)) if args.holos else None
     slovnyky = zbraty_slovnyky()
     vsoho = sum(len(v) for v in slovnyky.values())
     print(f"Словники: {vsoho} термінів у {len(slovnyky)} групах "
@@ -326,7 +375,7 @@ def main():
 
     pomylok = 0
     for shlyah in sorted(shlyahy):
-        stat, problemy, vykynuto, chastka_prozy = perevirty(shlyah, slovnyky)
+        stat, problemy, vykynuto, chastka_prozy = perevirty(shlyah, slovnyky, holos_pravyla)
         errors = [x for x in problemy if x[0] == "ERROR"]
         pomylok += len(errors)
 
@@ -359,8 +408,9 @@ def main():
                 print("   ! немає жодного речення на 1–3 слова")
             if stat["TTR"] < 0.35:
                 print("   ! TTR під 0.35 — бідна лексика")
-        if stat["найдовше"] > 45:
-            print(f"   ! речення на {stat['найдовше']} слів — розбити")
+        mezha = (holos_pravyla or {}).get("межа") or 45
+        if stat["найдовше"] > mezha:
+            print(f"   ! речення на {stat['найдовше']} слів, межа {mezha} — розбити")
 
         if not problemy:
             print("   чисто\n")
