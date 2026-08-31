@@ -27,7 +27,7 @@
 | [`.cursor/rules/skills-routing.mdc`](.cursor/rules/skills-routing.mdc) | Правило маршрутизації, завжди в контексті агента |
 | [`.cursor/rules/skills-catalog.mdc`](.cursor/rules/skills-catalog.mdc) | Підтягує `SKILLS.md`, коли розмова про скіли |
 | [`.cursor/skills/ATTRIBUTION.md`](.cursor/skills/ATTRIBUTION.md) | Автори, ліцензії, комміти-джерела, перелік правок |
-| [`research/`](research/) | Дослідження. Поки одне: [контент-завод на ШІ](research/2026-08-31-kontent-zavod-na-shi.md) — які моделі під які задачі, скільки коштує, з чого починати |
+| [`research/`](research/) | Дослідження: [контент-завод на ШІ](research/2026-08-31-kontent-zavod-na-shi.md) — які моделі під які задачі й скільки коштує; [скіли під станції](research/2026-08-31-skily-pid-stantsii.md) — що ставити з GitHub і в якому порядку |
 
 Щоб послатися на довідник у чаті — набери `@SKILLS.md`.
 
