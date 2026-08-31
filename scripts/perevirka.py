@@ -180,6 +180,15 @@ def zbraty_slovnyky():
 # Ці категорії взято з asaulyuk/humanizer-ukr (MIT) — у словниках ukrainianizer
 # їх немає взагалі. Вони ловлять не слова, а конструкції.
 
+# Питомі прикметники на -учий/-ючий. Вони збігаються за формою з активними
+# дієприкметниками, але дієприкметниками не є: «балакучий» правильне слово,
+# а «існуючий» — калька. Список закритий, тому виняток безпечний.
+PRYKMETNYKY_UCH = {
+    "балакуч", "летюч", "колюч", "гаряч", "зряч", "тремтяч", "сипуч", "повзуч",
+    "кипуч", "пахуч", "живуч", "плакуч", "співуч", "скрипуч", "тягуч", "тонюч",
+    "жагуч", "болюч", "рвуч", "минуч", "линюч", "квітуч", "видюч", "ходяч",
+}
+
 STRUKTURNI = [
     ("дієприкметник -ючий", r"\b\w+[юу]ч(?:ий|а|е|і|ого|ому|им|их|ими)\b",
      "активні дієприкметники в українській не вживаються: «керуючий» → «керівник», «наступаючий» → «що настає»"),
@@ -273,6 +282,9 @@ def perevirty(shlyah, slovnyky):
 
     for nazva, vzir, poyasnennia in STRUKTURNI:
         znajdeni = re.findall(vzir, proza)
+        if nazva.startswith("дієприкметник"):
+            znajdeni = [z for z in znajdeni
+                        if not any(z.lower().startswith(k) for k in PRYKMETNYKY_UCH)]
         if znajdeni:
             zrazok = znajdeni[0] if isinstance(znajdeni[0], str) else " ".join(znajdeni[0])
             problemy.append(("WARN", nazva, f"{len(znajdeni)}× напр. {zrazok!r}", poyasnennia))
