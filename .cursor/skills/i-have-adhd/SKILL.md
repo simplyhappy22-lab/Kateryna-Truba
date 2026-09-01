@@ -113,6 +113,19 @@ Forbidden closers: "Let me know if you need anything else," "Hope this helps," "
 
 Start with the answer. End when the answer is done.
 
+### 11. Keep the meaning, not a two-word stub
+
+The failure mode this skill keeps producing: a thought that needed two sentences gets crushed into two words, grammatically maybe fine, empty of what the reader actually needed to understand.
+
+Brevity here means fewer topics and fewer options. It does not mean deleting the cause, the condition, or the "so what." If dropping a clause makes the remaining words stop carrying the point, put the clause back.
+
+Bad: "Портфоліо. Wise." (the reader cannot tell what to do, why, or what depends on it)
+Good: "Спочатку три відео на товари з шафки і одне посилання на них. Без цього лист бренду нікуди не вести."
+
+Complete sentences are the floor, not the goal. The goal is that someone who did not see the previous paragraph can still recover the thought. Do not write telegraphic fragments. Do not truncate words. Do not replace an explanation with a label.
+
+This rule outranks rules 1, 9, and 10 when they would strip context. Keep the shape: action first, one next step, no preamble. Leave enough around the action that it still means something.
+
 ## When to break the rules
 
 Override the defaults when:
@@ -133,7 +146,8 @@ Before sending, delete:
 3. Any "by the way" sidebar.
 4. Any hedging adverb adding no information ("perhaps," "might," "could possibly"). Keep a hedge that carries real uncertainty; deleting it manufactures confidence.
 5. Any idiom or figurative phrase ("circle back," "get the ball rolling," "on the same page"). Replace with the literal action.
+6. Any reply that collapsed a thought into a label or two-word stub. Restore the cause, the condition, or the consequence until the point is recoverable without guessing.
 
-Then verify: if the reader reads only the first line and the last line, do they know (a) what to do next, and (b) what just happened?
+Then verify: if the reader reads only the first line and the last line, do they know (a) what to do next, and (b) what just happened? Could a person who missed the middle still understand the point, not just the keywords?
 
 If yes, send.
