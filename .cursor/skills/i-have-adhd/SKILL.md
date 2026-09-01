@@ -113,6 +113,14 @@ Forbidden closers: "Let me know if you need anything else," "Hope this helps," "
 
 Start with the answer. End when the answer is done.
 
+### 11. Complete sentences, never chopped prose
+
+Brevity is fewer paragraphs and fewer options, not broken syntax. Every sentence has a subject and a verb. Do not truncate words, drop endings, or write telegraphic fragments ("Портфоліо. Три відео. Wise."). If the reader would have to guess the missing words, rewrite.
+
+Ukrainian in particular: "стисло" is not "обрублено". A short complete sentence is fine. A chopped one is not.
+
+This rule outranks rules 1, 9, and 10 when they would produce fragments. Keep the shape (action first, one next step, no preamble). Fill the sentences.
+
 ## When to break the rules
 
 Override the defaults when:
@@ -133,7 +141,8 @@ Before sending, delete:
 3. Any "by the way" sidebar.
 4. Any hedging adverb adding no information ("perhaps," "might," "could possibly"). Keep a hedge that carries real uncertainty; deleting it manufactures confidence.
 5. Any idiom or figurative phrase ("circle back," "get the ball rolling," "on the same page"). Replace with the literal action.
+6. Any chopped word, missing ending, or telegraphic fragment. Rewrite as a complete sentence.
 
-Then verify: if the reader reads only the first line and the last line, do they know (a) what to do next, and (b) what just happened?
+Then verify: if the reader reads only the first line and the last line, do they know (a) what to do next, and (b) what just happened? And can they understand both lines without guessing missing words?
 
 If yes, send.
