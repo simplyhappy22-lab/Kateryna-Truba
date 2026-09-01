@@ -192,6 +192,10 @@ PRYKMETNYKY_UCH = {
     "жагуч", "болюч", "рвуч", "минуч", "линюч", "квітуч", "видюч", "ходяч",
 }
 
+# Іменники, які випадково збігаються з формою дієприкметника: «коучі» розбирається
+# як «ко» + «уч» + «і». Список так само закритий і поповнюється за потреби.
+IMENNYKY_UCH = {"коуч", "ключ", "плащ"}
+
 STRUKTURNI = [
     ("дієприкметник -ючий", r"\b\w+[юу]ч(?:ий|а|е|і|ого|ому|им|их|ими)\b",
      "активні дієприкметники в українській не вживаються: «керуючий» → «керівник», «наступаючий» → «що настає»"),
@@ -344,7 +348,8 @@ def perevirty(shlyah, slovnyky, holos_pravyla=None):
         znajdeni = re.findall(vzir, proza)
         if nazva.startswith("дієприкметник"):
             znajdeni = [z for z in znajdeni
-                        if not any(z.lower().startswith(k) for k in PRYKMETNYKY_UCH)]
+                        if not any(z.lower().startswith(k)
+                                   for k in PRYKMETNYKY_UCH | IMENNYKY_UCH)]
         if znajdeni:
             zrazok = znajdeni[0] if isinstance(znajdeni[0], str) else " ".join(znajdeni[0])
             problemy.append(("WARN", nazva, f"{len(znajdeni)}× напр. {zrazok!r}", poyasnennia))
@@ -376,7 +381,10 @@ def main():
                                               recursive=True, include_hidden=True)
                    if "/.git/" not in f and "/plugins/" not in f]
     else:
-        shlyahy = [Path(f) for f in args.files]
+        shlyahy = []
+        for f in args.files:
+            shlyah = Path(f)
+            shlyahy.extend(sorted(shlyah.rglob("*.md")) if shlyah.is_dir() else [shlyah])
     if not shlyahy:
         p.error("нема що перевіряти")
 
