@@ -29,7 +29,7 @@
 | [`.cursor/skills/ATTRIBUTION.md`](.cursor/skills/ATTRIBUTION.md) | Автори, ліцензії, комміти-джерела, перелік правок |
 | [`scripts/perevirka.py`](scripts/perevirka.py) | Механічна перевірка тексту за словниками. Висить на `pre-commit` |
 | [`voices/`](voices/) | Файли голосу, по одному на голос. Спільні для всіх проєктів, читаються перевіркою через `--holos` |
-| [`research/`](research/) | Дослідження: [моделі під задачі](research/2026-08-31-kontent-zavod-na-shi.md), [скіли з GitHub під станції](research/2026-08-31-skily-pid-stantsii.md), [як перебудувати структуру](research/2026-08-31-struktura-zavodu.md), [що з Grok Bot лягає на завод](research/2026-08-31-grok-bot-pid-zavod.md), [розбір чужого заводу](research/2026-08-31-rozbir-chuzhoho-zavodu.md), [грумінг собак, Польща → Уругвай](research/2026-09-04-gruming-sobak-polshcha-uruhvaj.md) |
+| [`research/`](research/) | Дослідження: [моделі під задачі](research/2026-08-31-kontent-zavod-na-shi.md), [скіли з GitHub під станції](research/2026-08-31-skily-pid-stantsii.md), [як перебудувати структуру](research/2026-08-31-struktura-zavodu.md), [що з Grok Bot лягає на завод](research/2026-08-31-grok-bot-pid-zavod.md), [розбір чужого заводу](research/2026-08-31-rozbir-chuzhoho-zavodu.md), [грумінг собак, Польща → Уругвай](research/2026-09-04-gruming-sobak-polshcha-uruhvaj.md), [чотири діри того ж дослідження](research/2026-09-04-gruming-diry.md) |
 
 Щоб послатися на довідник у чаті — набери `@SKILLS.md`.
 
